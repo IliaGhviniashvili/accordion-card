@@ -6,7 +6,7 @@ const upArrow = <i className="fa-solid fa-chevron-up"></i>;
 const downArrow = <i className="fa-solid fa-chevron-down"></i>;
 
 function AccordionItem(props) {
-  const { handleClick, activeComponent, itemNumber, title, content, image } = props;
+  const { handleClick, activeComponent, itemNumber, title, content } = props;
   const [arrowActive, setArrowActive] = useState(false);
 
   function handleArrowClick() {
