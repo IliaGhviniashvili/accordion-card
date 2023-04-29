@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root{
+  --wrapper-bg: hsla(256, 54%, 45%, 1);
+  --title-color: white;
+}
+
+.wrapper {
+  background-color: var(--wrapper-bg);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.title{
+  margin-bottom: 5rem;
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
+  color: var(--title-color);
+}
+
+
+

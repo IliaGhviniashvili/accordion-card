@@ -1,0 +1,65 @@
+.titleAndArrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.titleAndArrow i {
+  transition: transform 0.3s ease-in-out; /* add transition effect */
+}
+
+.titleAndArrow i.active {
+  transform: rotate(180deg);
+}
+.itemClass{
+    border-radius: 20px;
+    padding: 5px;
+}
+.itemClass:hover {
+  background-color: rgb(194, 153, 153);
+}
+.big-text {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+
+/* Styles for screens with a maximum width of 768px */
+@media only screen and (max-width: 768px) {
+  .titleAndArrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .titleAndArrow h2 {
+    font-size: 24px;
+  }
+
+  .titleAndArrow i {
+    font-size: 22px;
+  }
+}
+
+/* Styles for screens with a minimum width of 768px */
+@media only screen and (min-width: 768px) {
+  .titleAndArrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .titleAndArrow h2 {
+    font-size: 26px;
+    font-weight: 700;
+  }
+
+  .titleAndArrow i {
+    font-size: 24px;
+  }
+  .titleAndArrow p {
+    margin-bottom: 10px;
+  }
+}

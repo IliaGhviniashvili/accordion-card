@@ -1,0 +1,15 @@
+:root {
+  --background-color: rgb(238, 226, 226);
+  --padding-md: clamp(2vw, 4rem, 4vw);
+}
+
+.container {
+  background-color: var(--background-color);
+  height: 500px;
+  width: 500px;
+  padding: var(--padding-md);
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+
